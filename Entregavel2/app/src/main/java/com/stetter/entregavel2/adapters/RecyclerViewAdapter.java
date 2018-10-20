@@ -68,4 +68,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         }
     }
 
+    public void update(List<Receitas> newList){
+        listaReceitas = newList;
+        notifyDataSetChanged();
+    }
 }

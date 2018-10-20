@@ -36,4 +36,6 @@ public class Receitas {
     public void setDescrição(String descrição) {
         this.descrição = descrição;
     }
+
+
 }
